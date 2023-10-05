@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/** 404 **/
+.title-404 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-left: 77px;
+  width: 163px;
+  height: 25px;
+  font-weight: 700;
+  line-height: 25.18px;
+  letter-spacing: -8%;
+}
+
+/* Main */
+.wp-main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 265px;
+ 
+}
+
+/* CSS para móviles */
+@media (max-width: 900px) {
+  .wp-main {
+    flex-direction: column; 
+    align-items: center;    
+    margin-top: 5rem;
+  }
+
+  .wp-img{
+    margin-left: 77px;
+    margin-right: 77px;
+  }
+
+}
+
+
+
+/* Cajas flex */
+.wp-img {
+  flex: 1;
+  width: 539.22px;
+  height: 447.43px;
+  margin-left: 77px;
+}
+
+.wp-text {
+  flex: 1;
+  width: 586px;
+  height: 190px;
+  margin-left: 127px;
+  margin-top: 3rem;
+}
+
+/* IMAGEN */
+.img {
+  width: 100%;
+  height: auto;
+}
+
+/** TEXTO **/
+
+/* Titulo */
+.title-bad-news {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94.78px;
+  letter-spacing: -3.5%;
+  color: #333333;
+}
+
+/* Párrafo */
+.text {
+  width: 400px;
+  height: 108px;
+  margin-top: 3rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35.54px;
+  letter-spacing: -3.5%;
+  color: #4f4f4f;
+}
+
+/* Botón */
+.btn {
+  margin-top: 4rem;
+  padding: 25px 50px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20.73px;
+  letter-spacing: -3.5%;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* FOOTER */
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  bottom: 0;
+  width: 100%;
+  color: #bdbdbd;
+}
+
+.span {
+  font-weight: 700;
+  border-bottom: 1px solid #bdbdbd;
+}
